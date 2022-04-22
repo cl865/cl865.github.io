@@ -1,0 +1,273 @@
+
+body{
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: light;
+  font-size: 16px;
+  color: #505050;
+}
+
+b{
+  font-weight: 600;
+  color: black;
+}
+
+body p{
+  font-weight: lighter;
+  line-height: 1.2
+}
+
+/* custom colors for links*/
+
+a:link {
+  color: #505050;
+}
+
+a:visited {
+  color: #505050;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: #505050;
+}
+
+.concussions{
+  font-weight: lighter
+}
+
+
+h2{
+  color: #FF8C00;
+}
+
+h3{
+  color: orange;
+}
+
+
+hr{
+  border-color: orange;
+  border-top: none;
+  margin: 30px auto;
+}
+
+ul {
+  list-style-type:square
+}
+
+.header-wrap{
+  position: fixed;
+  width: 50%;
+  background-color: white;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: none;
+  border-color: #D3D3D3;
+  z-index: 1
+}
+
+.name{
+  float:left;
+  font-size: 24px;
+  display: inline-block;
+  color: black;
+  /* name was #6C2B37 */
+  font-weight: bold
+}
+
+.name p{
+  margin: 0;
+}
+
+/* format nav bar */
+
+.navbar {
+  float: right;
+  overflow: hidden;
+  background-color: white;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.link {
+  display: inline-block;
+  color: orange;
+  text-align: center;
+  margin: 0 4px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-decoration: none
+}
+
+.link:hover, .link.active{
+  text-shadow: 1px 0 0 orange;
+  color: orange;
+}
+
+/* at 1000px prevent title from touching nav*/
+
+@media only screen and (max-width: 1000px){
+  body{
+    width: 70%;
+  }
+  .header-wrap{
+    width: 70%;
+  }
+}
+
+/* for smaller screen */
+/* push nav bar below title, and float left */
+
+@media only screen and (max-width: 700px) {
+  body{
+    width: 90%;
+  }
+  .header-wrap{
+    width: 100%;
+  }
+  .name{
+    width: 100%;
+    display: block;
+  }
+  .navbar{
+    display: block;
+    float: left;
+
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  body{
+    width: 100%;
+  }
+  .header-wrap{
+    width: 100%;
+    padding-left: 10px;
+  }
+  .name{
+    width: 100%;
+    display: block;
+  }
+  .navbar{
+    display: block;
+    float: left;
+  }
+  .link{
+    padding-right: 10px
+  }
+}
+
+
+
+.about{
+  margin-top: 30px;
+}
+
+.about, .research, .portfolio, .contact, .cv, .misc{
+  padding: 16px;
+}
+
+.portfolio h2, .research h2, .contact h2, .cv h2, .misc h2{
+  margin: 0;
+}
+
+
+th{
+  padding: 2px 5px;
+  background-color: #B9DFEB;
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Inconsolata', monospace;
+}
+
+.skill{
+  padding: 2px 3px;
+  background-color: #B9DFEB;
+  color: black;
+  font-size: 14px;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* format print/save as pdf */
+
+@media print{
+  #header-wrap{
+    display: none
+  }
+  body {
+    width: 80%;
+    -webkit-print-color-adjust: exact !important;
+}
+}
+
+
+
+/* format research items headings */
+
+.research-item{
+  color: #008db3;
+}
+
+
+/* format research details, institution, advisor etc. */
+
+.research-detail{
+  margin-top: 2;
+  font-size: 14px;
+  color: #008db3;
+}
+
+/* format research links */
+
+.research-link{
+  color: #008db3;
+  text-decoration: none;
+  font-style: italic;
+}
+
+
+.fa-github-square:hover{
+  color: #882792;
+}
+
+.fa-envelope:hover{
+  color: #FF8C00;
+
+}
+
+.fa-researchgate:hover{
+  color: #00ccbb;
+}
+
+/* format proj header */
+
+.proj-head h3, h4{
+  display: inline;
+}
+
+.proj-head h5{
+  display: inline;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* format extra icons */
+
+i{
+  padding-left: 10px
+}
+
+.fa-twitter:hover{
+  color: #00AACE;
+}
+
+a {
+  text-decoration: none;
+}
