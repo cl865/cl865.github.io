@@ -36,10 +36,6 @@ a:active {
   color: #505050;
 }
 
-.concussions{
-  font-weight: lighter
-}
-
 
 h2{
   color: #FF8C00;
@@ -169,7 +165,7 @@ ul {
   margin-top: 30px;
 }
 
-.about, .research, .portfolio, .contact, .cv, .misc{
+.about, .research, .portfolio, .cv, .misc{
   padding: 16px;
 }
 
@@ -232,11 +228,6 @@ th{
   font-style: italic;
 }
 
-
-.fa-github-square:hover{
-  color: #882792;
-}
-
 .fa-envelope:hover{
   color: #FF8C00;
 
@@ -270,4 +261,13 @@ i{
 
 a {
   text-decoration: none;
+}
+
+/* format image */
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
