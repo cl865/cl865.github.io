@@ -1,238 +1,98 @@
-<! DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Inconsolata" rel="stylesheet">
-	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Christine Lin </title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142129368-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-142129368-1');
-</script>
-
-<div class = "header-wrap" id = "header-wrap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pittsburgh Roentgen Society</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
 </head>
 
 <body>
+    <div class="navbar">
+        <ul class = "nav-link">
+            <li class = "main"><a href="index.html"> PITTSBURGH ROENTGEN SOCIETY</a></li>
+        </ul>    
+        <ul class="nav-link">
+            <li><a href="about.html"> About</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+<main>
 
-  
-  <div class = "name">
-  <p style = "font-weight: bold"> Christine Lin </p>
-  </div>
 
-<!- nav bar _>
+ <div class = "t1">
 
-  <div class="navbar" id = "navbar">
-    <a class = "active link" href = "#about" onclick="scroll_to_div('about')"> About </a>
-    <a class = "link" href="#research" onclick="scroll_to_div('research')"> Research </a>
-    <a class = "link" href="#portfolio" onclick="scroll_to_div('portfolio')"> Projects </a>
-    <a class = "link" href="#misc" onclick="scroll_to_div('misc')"> Misc </a>
-    <a class = "link" href = "#cv" onclick="scroll_to_div('cv')"> CV </a> 
-  </div>
-
-</div>
-
-<! - begin content ->
-
-<div class="about" id = "about">
-
-  <br><br>
-
-  <p> I'm Christine, a PGY-3 radiology resident. </p>
-
-  <br>
-
-  <p> 2024 - 2028: UPMC, Pittsburgh, PA. <strong> Diagnostic Radiology Resident </strong> </p>
-
-  <p> 2023 - 2024: Capital Health, Pennington, NJ. <strong> Transitional Year Internship </strong></p>
-
-  <p> 2019 - 2023: Penn State College of Medicine, Hershey, PA. <strong> MD </strong> </p>
-
-  <p> Spring 2019: Memorial Sloan Kettering Cancer Center, Biostatistics and Epidemiology, NYC, NY. <strong> Data Analyst </strong></p>
-
-  <p> 2015 - 2018: Cornell University, Ithaca, NY. <strong> Biometry and Statistics, BS </strong></p>
-
-  <br></br><br></br>
-
-  <!--- temp remove this 
-
-  <a href = "https://github.com/cl865" style="color: black" target = "_blank">
-    <i class='fab fa-github-square' style='font-size:28px'></i>
-  </a>
-
-  <a href = "https://twitter.com/ChristineLin08" style="color: black;" target = "_blank">
-    <i class='fab fa-twitter' style='font-size:28px'></i>
-  </a> 
-
--->
-
-  <p style="font-size: 13px"> (Last updated: May 2023) </p>
+    Pittsburgh Roentgen Society
 
 </div>
 
-<hr align = "center" width="50%">
 
-<!--- RESEARCH SECTION --->
+<div class = "t2">
 
-<div class = "research" id = "research">
-  <h2> Research </h2>
-
-  <p> <a
-    id="cy-effective-orcid-url"
-    class="underline"
-    href="https://orcid.org/0000-0002-4330-4704"
-    target="orcid.widget"
-    rel="me noopener noreferrer"
-    style="vertical-align: top">
-    <img
-      src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
-      style="width: 1em; margin-inline-start: 0.5em"
-      alt="ORCID iD icon"/>
-      https://orcid.org/0000-0002-4330-4704
-      </a>
-    </p>
-
-  <br>
-  <a href = "https://pubmed.ncbi.nlm.nih.gov/?term=Lin%2C+Christine%5BAuthor%5D+AND+Zaorsky%2C%5BAuthor%5D" target = "_blank"> <h4 class = "research-item"> Predicting survival for patients with cancer </h4> </a>  
-  <p class = "research-detail"> Penn State COM, Hershey, PA; PI: Nicholas Zaorsky, MD MS </p>  
-
-  <p> Multiple projects that use a "big-data" and machine learning approach to evaluate mortality in cancer patients. </p>
-  
-  <a href = "https://doi.org/10.1038/s41523-021-00354-1" target = "_blank"><h4 class = "research-item"> Image analysis of mammograms </h4>  <p class = "research-detail"> MSKCC, NYC, NY; PI: Malcolm Pike, PhD </p>  </a>
-
-  <p> Developed an in-house imaging analysis pipeline using R that implements pre-processing, clustering, and machine learning algorithms to obtain predicted breast density readings from mammograms. Published in <em>NPJ Breast Cancer </em>.
-  </p>
+    A non-profit society representing radiologists in Pittsburgh and Western Pennsylvania.
 
 </div>
 
-<hr align = "center" width="50%">
 
-<!--- PROJECTS SECTION --->
+<div class = "home_container">
 
-<div class="portfolio" id = "portfolio">
-  <h2>Projects</h2>
 
-  <div style="display: flex; flex-direction: row; align-items: center; justify-content: left">
+    <div class = "home_1">
 
-    <span style="margin-right: 5px">
- 
-  </div>
+        <div class = "h2"> Welcome!  </div>
 
-<br></br>
+                <br>
 
-  <div class = "proj-head">
-      <h3> Web-based risk calculators </h3>
-  </div>
+        <p> The Pittsburgh Roentgen Society is a local professional organization to further radiology and advance patient care through radiology in the Pittsburgh area. The Society was founded by Dr. John McCullough on May 17, 1932. </p>
 
-  <p>
-    I developed interactive user-friendly web apps to translate complex predictive models into interpretable results for clinicians.
+                <br>
 
-  </p>
+            <p> The purpose of this Society is three-fold: <br>
+            - Promote fellowship for better understanding and cooperation. <br>
+            - Disseminate knowledge and stimulate better radiological work. <br>
+            - Aid in the formulation and institution of sound economic plans.
+            </p>
 
-   <p>
+            <br>
 
-    Identification & validation of the prognostic impact of metastatic prostate cancer phenotypes (2022): <a = href = "https://surv-app.shinyapps.io/Prostate-Met/" target = "_blank"> <em> Metastatic prostate cancer survival calculator and web app </em> </a>
 
-  </p>
+        <div class = "h2"> 
 
-  <p>
+            Please read the <a href="letter.pdf" target="_blank"> President's Welcome Letter </a> by Dr. Katie Traylor.
+            
+        </div>
 
-    Predicting survival after palliative radiotherapy (2021): <a = href = "https://cl865.github.io/surv/" target = "_blank"> <em> METSSS model and web app </em> </a>
+        <div class = "h2"> For upcoming events, visit our <a href = "announcements.html"> Announcements </a> page.  </div>
 
-  </p>
+        <div class = "h2"> To apply for membership or pay for dues, please visit our <a href = "join.html"> Join </a> page.  </div>
 
-  <p>
+    </div>
 
-    Pan-cancer analysis of prognostic metastatic phenotypes (2021): <a = href = "https://surv-app.shinyapps.io/phenotype/" target = "_blank"> <em> STARS model and web app </em></a>
+    <div class = "home_2">
 
-  </p>
+        <iframe src="letter.pdf" width="100%" height="100%"></iframe>
 
-  <table>
-    <tr>
-      <th> R / R shiny</th>
-      <th> Python </th>
-      <th> HTML </th>
-      <th> CSS </th>
-      <th> JavaScript </th>
-    </tr>
-  </table>
-
-<br></br><br></br>
-
+    </div>
 
 </div>
 
-<hr align = "center" width="50%">
 
-<!--- MISC --->
+</main>
 
-<div class="misc" id = "misc">
-  <h2> Misc</h2>
-
-  <p> I'm a retired figure skater. </p>
-
-  <p> Now I'm learning amigurumi, gardening, and running long distances. </p>
-
-  <br>
-
-  <img src = "beagle.jpg" class = "center">
-
-
-
-</div>
-
-<!--- CV --->
-
-<hr align = "center" width="50%">
-
-<div class="cv" id = "cv">
-  <h2> CV </h2>
-
-  <p> Available upon request, linchristine08@gmail.com  </p>
-
-</div>
-
-<hr align = "center" width="50%">
-
-
-
-
-
-<!-- jquery: smooth scroll and active class -->
-
-<script type="text/javascript">
-var adjust = $("#header-wrap").outerHeight()
-
-function scroll_to_div(div_id)
-{
- $('html,body').animate(
- {
-  scrollTop: $("#"+div_id).position().top - adjust - 8
- },
- '7000');
-}
-
-// jquery for adding active class
-
-$(document).ready(function() {
-  $(".link").click(function () {
-    $(this).addClass("active");
-    $(".link").not(this).removeClass("active");
-    });
-});
-</script>
-
-
-
+<br>
 
 </body>
 
+<footer>
+    <p>Copyright Pittsburgh Roentgen Society</p> 
+
+    <p>Last updated: March 2026</p>
+
+    <p> The Pittsburgh Roentgen Society is a component of the <a href="https://www.acr.org/">American College of Radiology (ACR)</a> and <a href="https://paradsoc.org/?"> Pennsylvania Radiology Society (PRS) </a></p>
+</footer>
 
 </html>
